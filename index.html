@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/html5-device-mockups/dist/device-mockups.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper mt-4">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="device-wrapper mx-auto">
+                    <div class="device" data-device="iPhone7" data-orientation="portrait" data-color="black"
+                         style="width: 339px;padding-bottom: 229%;">
+                        <div class="screen">
+                            <div id="game"></div>
+                        </div>
+                        <div class="button">
+                            <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <p class="helper-text">Press space bar to play</p>
+                <label class="tech-stack">Were used such technologies as</label>
+                <ul class="list-inline stack-list">
+                    <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="https://phaser.io/">Phaser</a></li>
+                    <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="https://webpack.js.org/">Webpack</a></li>
+                    <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="https://babeljs.io/">Babel</a></li>
+                </ul>
+                <div class="alert alert-warning" role="alert">
+                    <strong>Important!</strong>
+                    This is a nonprofit project. The game is posted for demonstration purposes and will be removed at the first request of the copyright holder.
+                    Email for contact <a href="mailto:paulfcdd@gmail.com">paulfcdd[at]gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/phaser-ce/build/phaser.min.js"></script>
+<script src="dist/app.min.js"></script>
+</body>
+</html>

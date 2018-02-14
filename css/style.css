@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "flappy";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../media/fonts/flappy_font.TTF");
+}
+body {
+  background-color: #A9A9A9;
+}
+body #phone {
+  background-image: url("../media/src/phone.png");
+}
+body #game {
+  width: 288px;
+  height: 512px;
+  margin: 0 auto;
+}
+body .helper-text {
+  font-size: 24px;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+body .tech-stack {
+  color: #FFFFFF;
+}
+body .stack-list li a {
+  color: #FFFFFF;
+}
